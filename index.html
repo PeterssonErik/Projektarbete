@@ -1,83 +1,116 @@
 <!DOCTYPE html>
-<html lang="sv">
-<!-- svenskt språk -->
+<html lang="sv" id="nybild">
 
 <head>
-    <meta charset="utf-8">
-    <!-- utf-8 svensk -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- viewport -->
     <title>Åseda Sport</title>
-    <!-- titeln på hemsidan -->
-    <link rel="stylesheet" media="only screen and (max-width:480px)" href="css/mobile.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" href="css/articles.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:480px)" href="css/mobile.css">
     <link rel="icon" href="pictures/aseda.png" sizes="16x16" type="image/png">
     <link rel="shortcut icon" href="pictures/aseda.png" sizes="16x16" type="image/png">
     <link rel="apple-touch-icon" href="pictures/aseda.png" sizes="120x120" type="image/png">
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="css/media.css">
-    <!-- länk till stylesheet css för att anpassa till width 480px  -->
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="menu.css">
-    <!-- länk till stylesheet css för att anpassa till width 480px  -->
-    <link rel="stylesheet" type="text/css" href="test/main.css" />
-    <script type="text/javascript" src="test/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" href="css/media.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" href="menu.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:1024px)" href="css/SS.css">
 </head>
 
 <body>
-    <div id="header">
-        <h1 id="h1tag">Åseda IF</h1>
-        <h3 class="hidden">-En förening att växa i</h3>
-    </div>
-    <div id="meny">
-        <div id="meny2">
-            <nav id="navigation">
-                <ul>
-                    <li><a class="klass" href="index.html">Hem</a></li>
-                    <li><a class="klass" href="html/Damlag.html">Damlag</a></li>
-                    <li><a class="klass" href="html/Herrlag.html">Herrlag</a></li>
-                    <li><a class="klass" href="html/Knattelag.html">Knattelag</a></li>
-                    <li><a class="klass" href="html/Kontakt.html">Kontakt</a></li>
-                    <li><a class="klass" href="html/Policy.html">vår policy</a></li>
-                </ul>
-            </nav>
+    <main id="hela4">
+        <section id="fabbe">
+            <div id="header">
+                <h1 id="h1tag">Åseda IF</h1>
+                <h3 class="hidden">-En förening att växa i</h3>
+            </div>
+            <div id="meny">
+                <div id="meny2">
+                    <nav id="navigation">
+                        <ul class="ul">
+                            <li class="li"><a class="klass" href="index.html">Hem</a></li>
+                            <li class="li"><a class="klass" href="html/Damlag.html">Damlag</a></li>
+                            <li class="li"><a class="klass" href="html/Herrlag.html">Herrlag</a></li>
+                            <li class="li"><a class="klass" href="html/Knattelag.html">Knattelag</a></li>
+                            <li class="li"><a class="klass" href="html/Kontakt.html">Kontakt</a></li>
+                            <li class="li"><a class="klass" href="html/Policy.html">vår policy</a></li>
+                        </ul>
+                    </nav>
+                    <a id="i-nav" href="#">Mer</a>
+                </div>
+            </div>
+        </section>
 
-        </div>
-    </div>
-
-    <main id="container">
 
         <article id="sidebaren">
             <div class="example">
                 <p>Följ allt inom fotbollsvärlden här!</p>
                 <div class="post_results" id="post_results1" rss_num="8" rss_url="http://www.aftonbladet.se/sportbladet/fotboll/rss.xml">
                     <div class="loading_rss">
-                        <img alt="Loading..." src="images/loading.gif" />
+                        <img alt="Loading..." src="pictures/vit.jpg" />
                     </div>
                 </div>
                 <div class="post_results" id="post_results2" rss_num="8" rss_url="http://svenskfotboll.se/?rss=1">
                     <div class="loading_rss">
-                        <img alt="Loading..." src="images/loading.gif" />
+                        <img alt="Loading..." src="pictures/vit.jpg" />
                     </div>
                 </div>
                 <div style="clear:both;"></div>
             </div>
         </article>
+        <article id="indexarticle1">
+            <div id="welcome">Välkommen till Åseda IF</div>
+            <div id="mengd">Åseda IF består utav många olika sporter, det här är sidorna för fotbollslagen och deras spelare samt dess framgång.</div>
+            <ol class="listen" id="groo">
+                <li class="yoyo"><a class="font" href="../html/Herrlag.html">Truppen - Herrlag</a></li>
+                <li class="yoyo"><a class="font" href="../html/Damlag.html">Truppen - Damlag</a></li>
+                <li class="yoyo"><a class="font" href="../html/Knattelag.html">Knattelag</a></li>
+                <li class="yoyo"><a class="font" href="../html/herrlaget.html">herrlag - foto</a></li>
+                <li class="yoyo"><a class="font" href="../html/damlaget.html">damlag - foto</a></li>
+            </ol>
 
-      
+
+        </article>
 
 
-
-
+        <article id="indexarticle2">
+            <h2 id="rela">Åseda IF fotboll</h2>
+            <div class="divenindex">
+                <h3 id="lagdam">Damlag uppställning</h3>
+                <ul class="listski">
+                    <li><a class="lenka" href="html/damlaget.html">Laget</a></li>
+                </ul>
+            </div>
+            <div class="divenindex">
+                <h3 id="herrski">Herrlag uppställning</h3>
+                <ul class="listski">
+                    <li><a class="lenka" href="html/herrlaget.html">Laget</a></li>
+                </ul>
+            </div>
+            <div class="divenindex">
+                <h3 id="fest">Festligheter vid vinst</h3>
+                <ul class="listski">
+                    <li><a class="lenka" target="_blank" href="https://twitter.com/asedaif/status/657972234154287104/photo/1">Fest</a></li>
+                </ul>
+            </div>
+            <div class="divenindex">
+                <h3 id="kiosk">Stå i kiosken</h3>
+                <ul class="listski">
+                    <li><a class="lenka" href="html/anmälan.html">Anmälan</a></li>
+                </ul>
+            </div>
+        </article>
 
     </main>
-
     <div id="footer">
         <div id="footertext">
             <h3>Copyright © 2006-2015 Åseda IF.</h3>
             <h3>En ideell förening </h3>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="forms/custom.js"></script>
     <script type="text/javascript" src="menu.js"></script>
-    <script type="text/javascript" src="javascript/script.js"></script>
-
+    <script type="text/javascript" src="test/main.js"></script>
 </body>
 
 </html>

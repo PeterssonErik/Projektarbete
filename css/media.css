@@ -139,18 +139,6 @@ table {
 
 /* Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor */
 
-#header {
-    background-image: url(../pictures/bg_grass.jpg);
-    opacity: 0.9;
-}
-
-#header {
-    background-color: white;
-    width: auto;
-    height: 100px;
-    margin: 0 auto;
-}
-
 html {
     background-image: url("../pictures/bg2.jpg");
     background-repeat: no-repeat;
@@ -162,21 +150,8 @@ body {
     width: auto;
 }
 
-#header h1 {
-    padding-left: 44%;
-    font-family: 'Roboto Slab', serif;
-    font-size: 50px;
-    color: white;
-}
-
-#header h3 {
-    margin-left: 43.5%;
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-}
-
 #footer {
-    margin-top: 100%;
+    margin-top: 35px;
     height: 60px;
     width: auto;
 }
@@ -193,21 +168,8 @@ body {
     padding-left: 43%;
 }
 
-article {
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    /*background-color: white;*/
-}
-
 
 /* Index Index Index Index Index Index Index Index Index Index Index Index Index Index Index */
-
-#art {
-    background-color: gray;
-    border: 2px solid black;
-}
 
 #pet {
     text-align: center;
@@ -235,8 +197,6 @@ article {
 
 /*css for forms in contact.html*/
 
-
-/*
 input.invalid,
 textarea.invalid {
     border: 2px solid red;
@@ -392,55 +352,16 @@ section {
 
 #kalle {
     font-weight: bold;
-    padding: 10px 10px 0px 10px;
+    padding: 5px;
 }
 
 #seces {
     margin-bottom: 40px;
-    width: 600px;
+    padding: 10px;
+    width: 1400px;
     border: 0px;
     opacity: 1;
 }
-
-#sece {
-    border: 1px solid black;
-}
-
-#nyaart {
-    background-color: rgb(225, 225, 225);
-    padding: 10px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-
-#match {
-    width: 500px;
-    padding: 10px;
-    background-color: rgb(225, 225, 225);
-    float: left;
-    border: 1px solid black;
-}
-
-#twoinone {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1100px;
-}
-
-#artherr {
-    background-color: rgb(235, 235, 235);
-}
-
-#imagen {
-    width: 100%;
-    height: 100%;
-    padding-top: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 #fboverlay {
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -450,6 +371,12 @@ section {
     -ms-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+#sece {
+    border: 1px solid black;
+}
+
+
 
 #head4 {
     padding: 5px;
@@ -538,13 +465,6 @@ section {
     background-color: rgb(235, 235, 235);
 }
 
-#ark {
-    background-color: rgb(250, 250, 250);
-    border: 2px solid;
-    border-color: black;
-    font-family: sans-serif;
-}
-
 #policen {
     font-size: 35px;
     text-align: center;
@@ -575,135 +495,6 @@ section {
     -o-transform: scale(1.25);
     /* Opera */
     transform: scale(1.25);
-}
-
-
-/*Lek*/
-
-#ferjealex {
-    width: 107px;
-}
-
-#ferjealex:hover {
-    background-image: url(../pictures/molvakt.png);
-}
-
-#zlatan {
-    width: 85px;
-}
-
-#zlatan:hover {
-    background-image: url(../pictures/karls.png);
-}
-
-#bollkalle {
-    width: 140px;
-}
-
-#bollkalle:hover {
-    background-image: url("../pictures/bolle.png");
-}
-
-#Ronaldinho {
-    width: 87px;
-}
-
-#Ronaldinho:hover {
-    background-image: url("../pictures/peterols.png");
-}
-
-#ola {
-    width: 100px;
-}
-
-#ola:hover {
-    background-image: url("../pictures/olas.png");
-}
-
-#magnus {
-    width: 115px;
-}
-
-#magnus:hover {
-    background-image: url("../pictures/magnus.png");
-}
-
-.lag:hover {
-    color: white;
-    width: 150px;
-    height: 150px;
-}
-
-#nils {
-    width: 95px;
-}
-
-#nils:hover {
-    background-image: url("../pictures/nilsen.png");
-}
-
-#bert {
-    width: 105px;
-}
-
-#bert:hover {
-    background-image: url("../pictures/bertbert.png");
-}
-
-#ronaldo {
-    width: 115px;
-}
-
-#ronaldo:hover {
-    background-image: url("../pictures/ronaldo.png");
-}
-
-#per {
-    width: 105px;
-}
-
-#per:hover {
-    background-image: url("../pictures/permagnus.png");
-}
-
-#pelle {
-    width: 90px;
-}
-
-#pelle:hover {
-    background-image: url("../pictures/jonsson.png");
-}
-
-#kristoffer {
-    width: 115px;
-}
-
-#kristoffer:hover {
-    background-image: url("../pictures/krisse.png");
-}
-
-#bertil {
-    width: 115px;
-}
-
-#bertil:hover {
-    background-image: url("../pictures/bertilo.png");
-}
-
-#trenare {
-    width: 110px;
-}
-
-#trenare:hover {
-    background-image: url("../pictures/trenare2.png");
-}
-
-#krister {
-    width: 110px;
-}
-
-#krister:hover {
-    background-image: url("../pictures/krister01.png");
 }
 
 table thead tr td {
@@ -746,7 +537,7 @@ tr td {
 #knatte {
     width: 500px;
     /*background-color: white;*/
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -757,6 +548,8 @@ tr td {
     background-size: 350px 200px;
     margin-top: 10px;
     margin-right: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
 }
 
 #knatteArticle {
@@ -764,8 +557,7 @@ tr td {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid;
-    border-color: silver;
+    border-radius: 5px;
 }
 
 #knatteArticle h2 {
@@ -838,165 +630,342 @@ tr td {
     height: 120px;
 }
 
-#trenare1 {
-    width: 84px;
-}
-
-#trenare1:hover {
-    background-image: url("../pictures/majaekman.png");
-}
-
-#Petra {
-    width: 112px;
-}
-
-#Petra:hover {
-    background-image: url("../pictures/petra1.png");
-}
-
-#Stina {
-    width: 104px;
-}
-
-#Stina:hover {
-    background-image: url("../pictures/stina1.png");
-}
-
-#Kajsa {
-    width: 92px;
-}
-
-#Kajsa:hover {
-    background-image: url("../pictures/kajsa1.png");
-}
-
-#emma {
-    width: 109px;
-}
-
-#emma:hover {
-    background-image: url("../pictures/emma1.png");
-}
-
-#maria {
-    width: 92px;
-}
-
-#maria:hover {
-    background-image: url("../pictures/maria1.png");
-}
-
-#milan {
-    width: 84px;
-}
-
-#milan:hover {
-    background-image: url("../pictures/milan1.png");
-}
-
-#birgitta {
-    width: 110px;
-}
-
-#birgitta:hover {
-    background-image: url("../pictures/birgitta1.png");
-}
-
-#stina1 {
-    width: 75px;
-}
-
-#stina1:hover {
-    background-image: url("../pictures/stina2.png");
-}
-
-#kristina {
-    width: 125px;
-}
-
-#kristina:hover {
-    background-image: url("../pictures/kristina1.png");
-}
-
-#jasmin {
-    width: 80px;
-}
-
-#jasmin:hover {
-    background-image: url("../pictures/jasmin1.png");
-}
-
-#petra1 {
-    width: 93px;
-}
-
-#petra1:hover {
-    background-image: url("../pictures/petra2.png");
-}
-
-#jasmin1 {
-    width: 112px;
-}
-
-#jasmin1:hover {
-    background-image: url("../pictures/jasmin2.png");
-}
-
-#ebba {
-    width: 72px;
-}
-
-#ebba:hover {
-    background-image: url("../pictures/ebba1.png");
-}
-
-#valencia {
-    width: 135px;
-}
-
-#valencia:hover {
-    background-image: url("../pictures/valencia1.png");
-}
-
-.fb-like {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 #lankanmalan {
-    margin-top:10px;
-   text-decoration: none;
+    margin-top: 10px;
+    text-decoration: none;
     background-repeat: no-repeat;
     background-size: 35px 35px;
-    margin-left:20%;
+    margin-left: 20%;
     padding-bottom: 29px;
-     
 }
 
 #lankanmalan a {
     text-decoration: none;
-    font-size:20px;
-}    
+    font-size: 20px;
+}
 
 #sidebaren {
-    margin-left:100px;
+    margin-left: 10px;
 }
-#indexBox{
-    background-color:white;
-     width: 500px;
+
+#indexBox {
+    background-color: white;
+    width: 500px;
     /*background-color: white;*/
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    color:black;
+    color: black;
 }
-#indexBox h1{
-      font-size: large;
+
+#indexBox h1 {
+    font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: underline;
 }
-#indexBox p{
-    padding-left:10px;
-    padding-right:5px;
+
+#indexBox p {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#navigation {
+    background-image: url("../pictures/ftn.png");
+    height: 70px;
+}
+
+#mainern {
+    background-color: yellow;
+    width: auto;
+    height: auto;
+}
+
+.storre:visited {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.storre:link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(225, 225, 225);
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px green;
+    border-style: outset;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+textfield {
+    margin: 10px;
+    padding: 9px;
+    height: 40px;
+    width: 100px;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+}
+
+.tg {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-color: #333;
+    border-style: none;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-yw4l {
+    vertical-align: top;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+#hela {
+    width: 1500px;
+    height: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#bildski {
+    background-image: url("../pictures/damlag.jpg");
+    width: 700px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#match {
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    float: left;
+}
+
+#nyaart {
+    border-radius: 5px;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    width: 250px;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    float: left;
+    margin-left: 347px;
+}
+
+#hela1 {
+    width: 1500px;
+    height: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela2 {
+    width: 1500px;
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela3 {
+    width: 1500px;
+    height: 1250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela4 {
+    width: 1500px;
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela5 {
+    width: 1400px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#content {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.gamesHeader {
+    margin-left: 33px;
+}
+
+#emailBox {
+    margin-left: 42px;
+}
+
+#firstNameBox {
+    margin-left: 22px;
+}
+
+#phoneNumberBox {
+    margin-left: 13px;
+}
+
+#firstNameBox1 {
+    margin-left: 23px;
+}
+
+.example {
+    background-image: url("../pictures/m.jpg");
+    width: 290px;
+    border: 1px white solid;
+    padding: 15px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.example p {
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    padding-left: 16px;
+}
+
+.post_results {
+    margin: 5px;
+    width: 130px;
+    border: 1px solid #444;
+    float: left;
+}
+
+.post_results ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.post_results ul li {
+    background: #555555;
+    background: -moz-linear-gradient(top, #555555 0%, #444444 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #444444));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #555555 0%, #444444 100%);
+    /* IE10+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#444444', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, #555555 0%, #444444 100%);
+    /* W3C */
+    height: 63px;
+    padding: 10px;
+}
+
+.post_results ul li:hover {
+    background: #666;
+}
+
+.post_results ul li a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-family: 'Lora', serif;
+}
+
+.post_results ul li a:hover {
+    color: #eee;
+}
+
+.post_results ul li p {
+    color: #ddd;
+    font-size: 8px;
+    margin: 0;
+    display: block;
 }

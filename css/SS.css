@@ -1,0 +1,1430 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#nybild {
+    background-image: url(../pictures/kopia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hela4 {
+    width: 950px;
+    height: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela66 {
+    width: 950px;
+    height: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#fabbe {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: 120px;
+}
+
+#header {
+    background-image: url(../pictures/bg_grass.jpg);
+    opacity: 0.9;
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* Åseda if h1 taggen i headern högst upp på sidan */
+
+#h1tag {
+    padding-left: 44%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+}
+
+.hidden {
+    margin-left: 43.5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+
+#meny {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    /*border-radius: 3px;
+*/
+}
+
+#meny2 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#meny2 ul {
+    position: relative;
+    list-style-type: none;
+    float: center;
+    padding: 0;
+    margin: 0;
+}
+
+#meny2 li {
+    width: 150px;
+    border-collapse: separate;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+}
+
+#meny2 li.highlight {
+    background-color: white;
+    top: 50px;
+    height: 8px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    /*opacity: 0.8;*/
+}
+
+#meny2 li a {
+    width: 140px;
+    height: 10px;
+    padding-top: 16px;
+    margin: 0 0px;
+    color: white;
+    font: normal 25px arial;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+#navigation {
+    background-image: url("../pictures/ftn.png");
+    height: 70px;
+}
+
+
+/*news funtionen*/
+
+.dhmcss {
+    width: 100%;
+    background: #FFFFFF;
+    COLOR: #5C5C5C;
+    FONT-FAMILY: verdana, arial, helvetica;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    TEXT-DECORATION: none;
+}
+
+.dhmcssover {
+    width: 100%;
+    background: #EC941C;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: verdana, arial, helvetica;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    TEXT-DECORATION: none;
+}
+
+.dhmcssdown {
+    width: 100%;
+    background: #ACDCA5;
+    COLOR: #000000;
+    FONT-FAMILY: verdana, arial, helvetica;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    TEXT-DECORATION: none;
+}
+
+.duztext {
+    COLOR: #222222;
+    FONT-FAMILY: Arial, sans-serif, Geneva;
+    FONT-SIZE: 9pt;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none;
+    line-height: 18px;
+}
+
+.duztext2 {
+    COLOR: #222222;
+    FONT-FAMILY: Arial, sans-serif, Geneva;
+    FONT-SIZE: 10px;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+
+.kbaslik {
+    COLOR: #222222;
+    FONT-FAMILY: Arial, sans-serif, Geneva;
+    FONT-SIZE: 11pt;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+
+.bbaslik {
+    COLOR: #222222;
+    FONT-FAMILY: Arial, Arial, Geneva;
+    FONT-SIZE: 13pt;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+
+A:link {
+    text-decoration: none;
+    color: #202090;
+    font-size: 12px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+A:visited {
+    text-decoration: none;
+    color: #202090;
+    font-size: 10px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+A:hover {
+    text-decoration: underline;
+    color: #FF9900;
+    font-size: 10px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+a {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 12px;
+    color: #202090;
+}
+
+#indexarticle1 {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    margin-left: 50px;
+    padding: 15px;
+    width: 450px;
+    float: left;
+    height: 600px;
+    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+}
+
+#indexarticle2 {
+    border-radius: 5px;
+    float: left;
+    margin-top: 50px;
+    border: 4px green;
+    border-style: outset;
+    padding: 3px;
+    margin-left: 350px;
+    width: 220px;
+    height: 275px;
+    background-color: white;
+}
+
+#rela {
+    background-color: #094385;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px black;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
+}
+
+.divenindex {
+    background-color: rgb(215, 215, 215);
+}
+
+#lagdam {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.listski {
+    list-style-type: disc;
+    padding-left: 35px;
+}
+
+.lenka {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#herrski {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#segernforaseda {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#fest {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#kiosk {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#footer {
+    margin-top: 35px;
+    height: 60px;
+    width: auto;
+}
+
+#footer01 {
+    margin-top: 200px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext01 {
+    width: auto;
+    text-align:center;
+}
+
+
+#footer h3 {
+    padding-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 15px;
+}
+
+#footertext {
+    width: auto;
+    padding-left: 43%;
+}
+
+#bildski {
+    background-image: url("../pictures/damlag.jpg");
+    width: 700px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#nyaart {
+    border-radius: 5px;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    width: 250px;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    float: left;
+    margin-left: 70px;
+}
+
+#sece {
+    border: 1px solid black;
+}
+
+#head4 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head44 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#back {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head3 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#headboll {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(200, 200, 235);
+}
+
+.gro {
+    background-color: gray;
+}
+
+#train {
+    padding: 5px;
+    font-weight: bold;
+    background-color: gray;
+}
+
+#barnh2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#barn3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#pbarn {
+    width: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#alle {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#olikal {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+.listen {
+    list-style-type: disc;
+    padding: 5px 15px 5px 25px;
+}
+
+#hela {
+    width: 950px;
+    height: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#kalle {
+    font-weight: bold;
+    padding: 5px;
+}
+
+#match {
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    float: left;
+}
+
+#resultat {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#chall {
+    font-style: italic;
+}
+
+#lagsvag {
+    border: 1px solid black;
+    background-color: rgb(145, 145, 195);
+}
+
+.hej15 {
+    background-color: gray;
+}
+
+#footer1 {
+    /* på index sidan */
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext1 {
+    /* på index sidan */
+    width: auto;
+    padding-left: 43%;
+}
+
+table thead tr td {
+    padding: 5px;
+}
+
+tr td {
+    padding: 5px;
+}
+
+.storre:visited {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.storre:link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#knatteArticle {
+    background-color: white;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+}
+
+#knatteArticle h2 {
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+#textBoxH {
+    color: green;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 28%;
+}
+
+#knatte {
+    width: 500px;
+    /*background-color: white;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#knatte img {
+    box-shadow: 25px 25px 15px black;
+    background-repeat: no-repeat;
+    background-size: 350px 200px;
+    margin-top: 10px;
+    margin-right: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#fair {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-style: oblique;
+    padding-left: 5px;
+    font-size: large;
+}
+
+#textbox {
+    width: 400px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+#textBoxH {
+    color: green;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 28%;
+}
+
+#textbox ul li {
+    margin-top: 20px;
+    background-image: url('../pictures/football.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 19px;
+}
+
+#lankanmalan {
+    margin-top: 10px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    margin-left: 20%;
+    padding-bottom: 29px;
+}
+
+#lankanmalan a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#hela1 {
+    width: 950px;
+    height: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#footertext15 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#footer15 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#ark {
+    border: 4px green;
+    border-style: outset;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(215, 215, 215);
+}
+
+#bordern {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(175, 175, 175);
+}
+
+#barnh2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#barn3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#pbarn {
+    width: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#paran {
+    border: 1px solid black;
+    margin: 3px;
+    background-color: rgb(235, 235, 235);
+}
+
+#alle {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#olikal {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#damerna {
+    font-style: italic;
+    padding: 3px;
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(225, 225, 225);
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px green;
+    border-style: outset;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+textfield {
+    margin: 10px;
+    padding: 9px;
+    height: 40px;
+    width: 100px;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+}
+
+.tg {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-color: #333;
+    border-style: none;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-yw4l {
+    vertical-align: top;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+#hela2 {
+    width: 950px;
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#content {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.gamesHeader {
+    margin-left: 33px;
+}
+
+#emailBox {
+    margin-left: 42px;
+}
+
+#firstNameBox {
+    margin-left: 23px;
+}
+
+#phoneNumberBox {
+    margin-left: 13px;
+}
+
+#textBox {
+    margin-left: 89px;
+}
+
+#footer14 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext14 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#continuebutton {
+    margin-left: 200px;
+}
+
+#hela3 {
+    width: 950px;
+    height: 1250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#art {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(215, 215, 215);
+}
+
+#policyinnehall {
+    padding: 0px 25px 0px 25px;
+}
+
+#str {
+    font-weight: bold;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#first {
+    padding: 15px 15px;
+}
+
+#second {
+    padding: 15px 15px;
+}
+
+#third {
+    padding: 15px 15px;
+}
+
+#over {
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#fourth {
+    padding: 15px 15px;
+}
+
+.lists {
+    padding: 5px 35px 5px 35px;
+    list-style-type: disc;
+}
+
+.liulett {
+    padding: 3px 3px;
+}
+
+#over2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#fifth {
+    padding: 15px 15px;
+}
+
+#policen {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#footer13 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext13 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#hela5 {
+    width: 950px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#SpelareArticle {
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#Spelare {
+    margin: 5px 45px 0px 45px;
+    font-size: 35px;
+    padding: 1px;
+    border: 2px solid black;
+    text-align: center;
+    border-bottom: dashed 1px;
+    border-left: dashed 1px;
+    border-right: dashed 1px;
+    border-radius: 5px;
+}
+
+#section1 {
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border: outset;
+    padding: 10px;
+    width: 300px;
+}
+
+#forborder {
+    margin: 10px 5px 5px 5px;
+    float: right;
+    width: 300px;
+    height: 425px;
+    border: 1px solid black;
+}
+
+#helbild {
+    margin-left: 5px;
+}
+
+.valle {
+    margin-top: 3px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#back15 {
+    margin: 20px;
+}
+
+.ferg {
+    background-color: rgb(225, 225, 225);
+}
+
+.bildtillprofil {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 294px;
+    height: 400px;
+    margin: 3px;
+}
+
+#bild13 {
+    background-image: url(../pictures/eyy.JPG);
+}
+
+#bild12 {
+    background-image: url(../pictures/bollkalle.jpg);
+}
+
+#bild14 {
+    background-image: url(../pictures/stinab.jpg);
+}
+
+#bild15 {
+    background-image: url(../pictures/stinaa.jpg);
+}
+
+#bild16 {
+    background-image: url(../pictures/milan.jpg);
+}
+
+#bild17 {
+    background-image: url(../pictures/petras.jpg);
+}
+
+#bild18 {
+    background-image: url(../pictures/petrag.jpg);
+}
+
+#bild19 {
+    background-image: url(../pictures/kajsa.jpg);
+}
+
+#bild20 {
+    background-image: url(../pictures/maria.jpg);
+}
+
+#bild21 {
+    background-image: url(../pictures/kristina.JPG);
+}
+
+#bild22 {
+    background-image: url(../pictures/jasminp.jpg);
+}
+
+#bild23 {
+    background-image: url(../pictures/jasminn.JPG);
+}
+
+#bild24 {
+    background-image: url(../pictures/birgitta.jpg);
+}
+
+#bild25 {
+    background-image: url(../pictures/emmak.JPG);
+}
+
+#bild26 {
+    background-image: url(../pictures/damtrenare.jpg);
+}
+
+#footer100 {
+    margin-top: 35px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext10 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#firstNameBox1 {
+    margin-left: 23px;
+}
+
+#bild100 {
+    background-image: url(../pictures/niklasthorsson.jpg);
+}
+
+#bild101 {
+    background-image: url(../pictures/peterolsson.jpg);
+}
+
+#bild102 {
+    background-image: url(../pictures/karlpersson.jpg);
+}
+
+#bild103 {
+    background-image: url(../pictures/ronaldocarlsson.jpg);
+}
+
+#bild104 {
+    background-image: url(../pictures/oladanielsson.jpg);
+}
+
+#bild105 {
+    background-image: url(../pictures/magnuskarlsson.jpg);
+}
+
+#bild106 {
+    background-image: url(../pictures/nilssvensson.jpg);
+}
+
+#bild107 {
+    background-image: url(../pictures/bertpettersson.jpg);
+}
+
+#bild108 {
+    background-image: url(../pictures/kristernilsson.jpg);
+}
+
+#bild109 {
+    background-image: url(../pictures/bertilsverkersson.jpg);
+}
+
+#bild110 {
+    background-image: url(../pictures/kristofferjaremo.jpg);
+}
+
+#bild111 {
+    background-image: url(../pictures/pellejonsson.jpg);
+}
+
+#bild112 {
+    background-image: url(../pictures/permagnusson.jpg);
+}
+
+#bild113 {
+    background-image: url(../pictures/alexsvensson.jpg);
+}
+
+#bild114 {
+    background-image: url(../pictures/johanolsson.jpg);
+}
+
+#hela10 {
+    width: 950px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#bildherr {
+    background-image: url(../pictures/herrlaget.jpg);
+    width: 800px;
+    height: 600px;
+    background-size: contain;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#bilddam {
+    background-image: url(../pictures/damlaget.jpg);
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    margin-top: 10px;
+    padding: 10px 80px 10px 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(205, 225, 225);
+    border-radius: 50px;
+}
+
+#mengd {
+    padding: 10px 80px 10px 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(225, 205, 225);
+    border-radius: 50px;
+}
+
+
+#welcome {
+    margin-top:10px;
+    padding:10px 80px 10px 80px;
+    text-align:center;
+    font-size:30px;
+    background-color:rgb(205,225,225);
+    border-radius:50px;
+}
+
+#mengd {
+    padding:10px 80px 10px 80px;
+    font-size:20px;
+    text-align:center;
+    margin-top:25px;
+    background-color:rgb(225,205,225);
+    border-radius:50px;
+}
+
+#groo {
+    margin-top:10px;
+    border-radius:50px;
+    background-color:rgb(235,235,225);
+    margin-left:45px;
+    margin-right:45px;
+}
+
+.yoyo {
+    margin-top:15px;
+    margin-left:5px;
+    margin-bottom:15px;
+}
+
+.font:link {
+    font-size:20px;
+}
+
+.example {
+    background-image: url("../pictures/m.jpg");
+    width: 290px;
+    border: 1px white solid;
+    padding: 15px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.example p {
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    padding-left: 16px;
+}
+
+.post_results {
+    margin: 5px;
+    width: 130px;
+    border: 1px solid #444;
+    float: left;
+}
+
+.post_results ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.post_results ul li {
+    background: #555555;
+    background: -moz-linear-gradient(top, #555555 0%, #444444 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #444444));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #555555 0%, #444444 100%);
+    /* IE10+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#444444', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, #555555 0%, #444444 100%);
+    /* W3C */
+    height: 63px;
+    padding: 10px;
+}
+
+.post_results ul li:hover {
+    background: #666;
+}
+
+#i-nav {
+    display:none;
+}
+
+.post_results ul li a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-family: 'Lora', serif;
+}
+
+.post_results ul li a:hover {
+    color: #eee;
+}
+
+.post_results ul li p {
+    color: #ddd;
+    font-size: 8px;
+    margin: 0;
+    display: block;
+}

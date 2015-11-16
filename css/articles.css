@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#sidebaren {
+    margin-left: 40px;
+    float:left;
+}
+
+#indexarticle1 {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    margin-left: 50px;
+    padding: 15px;
+    width: 750px;
+    float:left;
+    height: 600px;
+    background-color: white;
+    background-image:linear-gradient(to bottom,  rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+}
+
+#indexarticle2 {
+    border-radius: 5px;
+    float: left;
+    border: 4px green;
+    border-style: outset;
+    padding: 3px;
+    margin-left: 5px;
+    width: 220px;
+    height: 275px;
+    background-color: white;
+}
+
+
+/* Index första sida med relativa länkar Index första sida med relativa länkar Index första sida med relativa länkar */
+
+#rela {
+    background-color: #094385;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px black;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
+}
+
+.divenindex {
+    background-color: rgb(215, 215, 215);
+}
+
+#lagdam {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.listski {
+    list-style-type: disc;
+    padding-left: 35px;
+}
+
+.lenka {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#herrski {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#segernforaseda {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#fest {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#kiosk {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#fabbe {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: 120px;
+}
+
+
+/* Footers Footers Footers Footers Footers Footers Footers Footers Footers Footers */
+
+#footer1 {
+    /* på index sidan */
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext1 {
+    /* på index sidan */
+    width: auto;
+    padding-left: 43%;
+}
+
+#footer10 {
+    /* på damtrenare sidan */
+    margin-top: 1500px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext10 {
+    /* på damtrenare sidan */
+    width: auto;
+    padding-left: 43%;
+}
+
+#footer5 {
+    margin-top: 600px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext5 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#art {
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(215, 215, 215);
+}
+
+#ark {
+    border: 4px green;
+    border-style: outset;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(215, 215, 215);
+}
+
+#footer13 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext13 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#footer14 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext14 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#knatteArticle {
+    border: 4px green;
+    border-style: outset;
+}
+
+#footertext15 {
+    width: auto;
+    padding-left: 43%;
+}
+
+#footer15 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footer100 {
+    margin-top: 35px;
+    height: 60px;
+    width: auto;
+}
+
+#textBox {
+    margin-left:89px;
+}
+
+#continuebutton {
+    margin-left:200px;
+}
+
+#hela10 {
+    width: 1400px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela66 {
+    width: 1500px;
+    height: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#bildherr {
+    background-image:url(../pictures/herrlaget.jpg);
+    width:800px;
+    height:600px;
+    background-size:contain;
+    border-radius:5px;
+    border:2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    background-repeat:no-repeat;
+}
+
+
+#bilddam {
+    background-image:url(../pictures/damlaget.jpg);
+    width:800px;
+    height:600px;
+    background-size:cover;
+    border-radius:5px;
+    border:2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    background-repeat:no-repeat;
+}
+
+#i-nav {
+    display:none;
+}

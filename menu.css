@@ -23,9 +23,6 @@
 #meny2 li {
     width: 150px;
     border-collapse: separate;
-    /* border-left: 1px solid gray;
-    border-radius:5px solid;
-    */
     float: left;
     list-style-type: none;
     padding: 0;
@@ -149,14 +146,14 @@ A:link {
 A:visited {
     text-decoration: none;
     color: #202090;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Arial", "Helvetica", "sans-serif";
 }
 
 A:hover {
     text-decoration: underline;
     color: #FF9900;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Arial", "Helvetica", "sans-serif";
 }
 

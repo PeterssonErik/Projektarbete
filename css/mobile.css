@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -111,7 +106,6 @@ section {
 
 body {
     line-height: 1;
-    overflow-x: hidden;
 }
 
 ol,
@@ -137,238 +131,24 @@ table {
     border-spacing: 0;
 }
 
-
-/* Mobil innehåll Mobil innehåll Mobil innehåll Mobil innehåll Mobil innehåll Mobil innehåll Mobil innehåll */
-
-#h1tag {
-    font-size: 25px;
-    text-align: center;
-}
-
-.hidden {
-    font-size: 15px;
-    text-align: center;
-}
-
-#header {
-    background-image: url("../pictures/bg_grass.jpg");
-    width: auto;
-    height: 50px;
-}
-
-
-/*
-.hidden {
-    display:none;
-}
-*/
-
-html {
-    background-image: url("../pictures/bg2.jpg");
-    width: auto;
-    height: auto;
+#nybild {
+    background-image: url(../pictures/kopia.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
 }
 
-body {
-    width: auto;
+#hela4 {
+    width: 460px;
     height: auto;
-}
-
-table {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    overflow: scroll;
-}
-
-#twoinone {
-    max-width: 300px;
-    height: auto;
-}
-
-nav {
-    width: 300px;
-    height: auto;
-}
-
-.klass {
-    padding: 15px;
-}
-
-#bilden {
-    width: 55px;
-    height: 55px;
-}
-
-#aside1 {
-    margin: 50px;
-    padding: 50px 50px 10px 50px;
-    border: 1px solid black;
-}
-
-#aside {
-    margin: 50px;
-    padding: 50px 50px 10px 50px;
-    border: 1px solid black;
-}
-
-.bildflera {
-    background-image: url("../pictures/myrvalla02.jpg");
-    background-repeat: no-repeat;
-}
-
-#seces {
-    max-width: 400px;
-    height: auto;
-}
-
-#fboverlay {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-#imagen {
-    max-width: 250px;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#artherr {
-    width: auto;
-    height: auto;
-    margin-top: 50px;
+    padding: 5px;
     background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
-#nyaart {
-    max-width: 250px;
-    height: auto;
-    background-color: rgb(225, 225, 225);
-}
-
-#match {
-    width: auto;
-    height: auto;
-    float: left;
-    border: 1px solid black;
-    background-color: rgb(225, 225, 225);
-}
-
-#sece {
-    width: 200px;
-    height: auto;
-}
-
-#table1 {
-    width: 250px;
-    height: auto;
-    overflow: scroll;
-}
-
-#chall {
-    width: 150px;
-    height: auto;
-}
-
-#meny {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    margin-bottom: 10px;
-}
-
-#meny2 {
-    width: 900px;
-    margin: 0 auto;
-}
-
-#meny2 ul {
-    position: relative;
-    list-style-type: none;
-    float: center;
-    padding: 0;
-    margin: 0;
-}
-
-#meny2 li {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    list-style-type: none;
-    font-size: 100%;
-    background-color: silver;
-    border-bottom: 1px solid black;
-}
-
-
-/*
-#meny2 li.highlight {
-    background-color: white;
-    top: 50px;
-    height: 8px;
-    z-index: 1;
-    position: absolute;
-    overflow: hidden;
-  
-}
-*/
-
-#meny2 li a {
-    font-size: 20px;
-    display: block;
-    width: auto;
-    height: 25px;
-    padding-bottom: 0.2em;
-    text-decoration: none;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-}
-
-#container {
-    max-width: 300px;
-    margin-left: 1px;
-}
-
-
-
-#sidebaren {
-    max-width: 300px;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-/*
-#navigation {
-    max-width: 300px;
-    height:auto;
-}
-
-new menu phone
-#navigation 
-{
-    text-align: center;
-    margin-left: auto;
-    margin-right: 10%;
-    width:auto;
-    margin-bottom:10px;
-   
-}
-#navigation li{
-      
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*news funtionen*/
 
@@ -447,54 +227,192 @@ new menu phone
 
 A:link {
     text-decoration: none;
-    color: #202090;
     font-size: 12px;
     font-family: "Arial", "Helvetica", "sans-serif";
 }
 
 A:visited {
     text-decoration: none;
-    color: #202090;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Arial", "Helvetica", "sans-serif";
 }
 
 A:hover {
     text-decoration: underline;
-    color: #FF9900;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Arial", "Helvetica", "sans-serif";
 }
 
 a {
     font-family: "Arial", "Helvetica", "sans-serif";
     font-size: 12px;
-    color: #202090;
 }
 
-#resultat {
-    font-weight: bold;
-    font-size: 20px;
+#indexarticle1 {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+}
+
+#indexarticle2 {
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 4px green;
+    border-style: outset;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 275px;
+    background-color: white;
+}
+
+#h1tag {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#rela {
+    background-color: #094385;
+    font-size: 25px;
+    color: white;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 5px black;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
 }
 
-#chall {
+.divenindex {
+    background-color: rgb(215, 215, 215);
+}
+
+#lagdam {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.listski {
+    list-style-type: disc;
+    padding-left: 35px;
+}
+
+.lenka {
+    font-size: 15px;
     font-style: italic;
 }
 
-.hej15 {
-    background-color: gray;
+#herrski {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-#lagsvag {
+#segernforaseda {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#fest {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#kiosk {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#footer {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer h3 {
+    padding-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 15px;
+}
+
+#footertext {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bildski {
+    background-image: url("../pictures/damlag.jpg");
+    width: 270px;
+    height: 96px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#nyaart {
+    border-radius: 5px;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    width: 250px;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sece {
     border: 1px solid black;
-    background-color: rgb(145, 145, 195);
 }
 
-.listen {
-    list-style-type: disc;
-    padding: 5px 15px 5px 25px;
+#head4 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head44 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#back {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head3 {
+    padding: 5px;
+    font-weight: bold;
 }
 
 #headboll {
@@ -515,32 +433,173 @@ a {
     background-color: gray;
 }
 
-#knatte {
-    width: 300px;
-    /*background-color: white;*/
-    margin-top: 0px;
+#barnh2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
 }
 
-#knatte img {
-    box-shadow: 25px 25px 15px black;
-    background-repeat: no-repeat;
-    background-size: 350px 200px;
-    margin-top: 5px;
+#barn3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#pbarn {
+    width: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#alle {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#olikal {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+.listen {
+    list-style-type: disc;
+    padding: 5px 15px 5px 25px;
+}
+
+#hela {
+    width: 440px;
+    height: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#kalle {
+    font-weight: bold;
+    padding: 5px;
+}
+
+#match {
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid black;
+    border: 4px green;
+    border-style: outset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resultat {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#chall {
+    font-style: italic;
+}
+
+#lagsvag {
+    border: 1px solid black;
+    background-color: rgb(145, 145, 195);
+}
+
+.hej15 {
+    background-color: gray;
+}
+
+#footer1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#footertext1 {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table thead tr td {
+    padding: 5px;
+}
+
+tr td {
+    padding: 5px;
+}
+
+.storre:visited {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.storre:link {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #knatteArticle {
     background-color: white;
-    width: auto;
-    border: 5px solid;
-    margin-top: 50px;
-    border-color: silver;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 4px green;
+    border-style: outset;
 }
 
 #knatteArticle h2 {
     font-size: large;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: underline;
+}
+
+#textBoxH {
+    color: green;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 3px;
+}
+
+#knatte {
+    width: 350px;
+    /*background-color: white;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#knattebild {
+    width:340px;
+    height:200px;
+   
+}
+
+#knatte img {
+    box-shadow: 5px 5px 5px black;
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    margin-top: 10px;
+    
+    border: 2px solid black;
+    border-radius: 3px;
 }
 
 #fair {
@@ -553,8 +612,9 @@ a {
 }
 
 #textbox {
-    width: 200px;
-    margin-left: 30%;
+    margin-left:5px;
+    
+    text-align:center;
     padding-bottom: 20px;
     padding-top: 50px;
 }
@@ -574,58 +634,300 @@ a {
     padding-left: 19px;
 }
 
-#knattebild {
-    width: 100%;
+#lankanmalan {
+    margin-top: 10px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    
+    padding-bottom: 29px;
 }
 
-#fb {
-    margin-right: 50%;
-    display: none;
+#lankanmalan a {
+    text-decoration: none;
+    font-size: 20px;
 }
 
-#textBoxH {
-    color: green;
+#hela1 {
+    width: 440px;
+    height: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#footertext15 {
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#footer15 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
 }
 
 #ark {
-    border: 1px solid black;
-    max-width: 300px;
-    margin-top: 50px;
-    background-color: white;
+    border: 4px green;
+    border-style: outset;
+    width: 380px;
+    height: auto;
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(215, 215, 215);
 }
 
-#formBox {
-    max-width: 300px;
-    padding-top: 8px;
+#bordern {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(175, 175, 175);
+}
+
+#barnh2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#barn3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#pbarn {
+    width: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#paran {
+    border: 1px solid black;
+    margin: 3px;
+    background-color: rgb(235, 235, 235);
+}
+
+#alle {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#olikal {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#damerna {
+    font-style: italic;
+    padding: 3px;
+}
+
+#container {
+    width: 350px;
+    height: 300px;
+    background-color: rgb(225, 225, 225);
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px green;
+    border-style: outset;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+textfield {
+    margin: 10px;
+    padding: 9px;
+    height: 40px;
+    width: 100px;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+}
+
+.tg {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-color: #333;
+    border-style: none;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-yw4l {
+    vertical-align: top;
+}
+
+#form {
+    float: left;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+#hela2 {
+    width: 440px;
+    height: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela02 {
+    width: 440px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#hela66 {
+    width: 440px;
+    height: 1250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#content {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.gamesHeader {
+    margin-left: 33px;
+}
+
+#emailBox {
+    margin-left: 42px;
+}
+
+#firstNameBox {
+    margin-left: 23px;
+}
+
+#phoneNumberBox {
+    margin-left: 13px;
+}
+
+#textBox {
+    margin-left: 25px;
+}
+
+#footer14 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext14 {
+    width: auto;
+    text-align:center;
+}
+
+#continuebutton {
+    margin-left: 200px;
+}
+
+#footer001 {
+    margin-top: 155px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext001 {
+    width: auto;
+    text-align:center;
+}
+
+#hela3 {
+    width: 450px;
+    height: 1750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 #art {
-    width: auto;
-    margin-top: 50px;
-    background-color: gray;
-    border: 2px solid;
-    border-color: black;
-    font-family: sans-serif;
+    border-radius: 5px;
+    margin-top:5px;
+    border: 4px green;
+    border-style: outset;
+    width: 420px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(215, 215, 215);
 }
 
 #policyinnehall {
     padding: 0px 25px 0px 25px;
 }
 
-#policen {
-    font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-}
-
-#first {
-    padding: 15px 15px;
-}
-
 #str {
     font-weight: bold;
     padding: 15px 15px;
     text-align: center;
+}
+
+#first {
+    padding: 15px 15px;
 }
 
 #second {
@@ -665,51 +967,483 @@ a {
     padding: 15px 15px;
 }
 
-#bordern {
-    margin: 3px;
-    padding: 3px;
-    border: 1px solid black;
-    background-color: rgb(175, 175, 175);
-}
-
-#barnh2 {
-    font-weight: bold;
-    font-size: 25px;
-    padding-top: 5px;
-    padding-left: 5px;
+#policen {
+    font-size: 35px;
     text-align: center;
+    font-weight: bold;
 }
 
-#barn3 {
+#footer13 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+    text-align:center;
+}
+
+#footertext13 {
+    width: auto;
+    text-align:center;
+}
+
+#hela5 {
+    width: 450px;
+    height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
-    font-size: 17px;
-}
-
-#pbarn {
-    width: 250px;
-    padding: 10px;
-    line-height: 20px;
-}
-
-#alle {
-    padding: 10px;
-    width: 250px;
-    line-height: 20px;
-}
-
-#olikal {
-    padding: 10px;
-    width: 250px;
-    line-height: 20px;
-}
-
-#damerna {
-    font-style: italic;
-    padding: 3px;
-}
-
-#paran {
-    border: 1px solid black;
-    margin: 3px;
     background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#SpelareArticle {
+    background-color: white;
+    width: 350px;
+    height: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#Spelare {
+    margin: 5px 45px 0px 45px;
+    font-size: 35px;
+    padding: 1px;
+    border: 2px solid black;
+    text-align: center;
+    border-bottom: dashed 1px;
+    border-left: dashed 1px;
+    border-right: dashed 1px;
+    border-radius: 5px;
+}
+
+#section1 {
+    margin-left: 15px;
+    margin-top: 450px;
+    border: 1px solid black;
+    border: outset;
+    padding: 10px;
+    width: 300px;
+}
+
+#forborder {
+    margin: 10px 5px 5px 5px;
+    float: right;
+    width: 300px;
+    height: 425px;
+    border: 1px solid black;
+}
+
+#helbild {
+    margin-left: 5px;
+}
+
+.valle {
+    margin-top: 3px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#back15 {
+    margin: 20px;
+}
+
+.ferg {
+    background-color: rgb(225, 225, 225);
+}
+
+.bildtillprofil {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin: 3px;
+}
+
+#bild13 {
+    background-image: url(../pictures/eyy.JPG);
+}
+
+#bild12 {
+    background-image: url(../pictures/bollkalle.jpg);
+}
+
+#bild14 {
+    background-image: url(../pictures/stinab.jpg);
+}
+
+#bild15 {
+    background-image: url(../pictures/stinaa.jpg);
+}
+
+#bild16 {
+    background-image: url(../pictures/milan.jpg);
+}
+
+#bild17 {
+    background-image: url(../pictures/petras.jpg);
+}
+
+#bild18 {
+    background-image: url(../pictures/petrag.jpg);
+}
+
+#bild19 {
+    background-image: url(../pictures/kajsa.jpg);
+}
+
+#bild20 {
+    background-image: url(../pictures/maria.jpg);
+}
+
+#bild21 {
+    background-image: url(../pictures/kristina.JPG);
+}
+
+#bild22 {
+    background-image: url(../pictures/jasminp.jpg);
+}
+
+#bild23 {
+    background-image: url(../pictures/jasminn.JPG);
+}
+
+#bild24 {
+    background-image: url(../pictures/birgitta.jpg);
+}
+
+#bild25 {
+    background-image: url(../pictures/emmak.JPG);
+}
+
+#bild26 {
+    background-image: url(../pictures/damtrenare.jpg);
+}
+
+#footer100 {
+    margin-top: 35px;
+    height: 60px;
+    width: auto;
+    text-align:center;
+}
+
+#footertext10 {
+    width: auto;
+    text-align:center;
+}
+
+#firstNameBox1 {
+    margin-left: 23px;
+}
+
+#bild100 {
+    background-image: url(../pictures/niklasthorsson.jpg);
+}
+
+#bild101 {
+    background-image: url(../pictures/peterolsson.jpg);
+}
+
+#bild102 {
+    background-image: url(../pictures/karlpersson.jpg);
+}
+
+#bild103 {
+    background-image: url(../pictures/ronaldocarlsson.jpg);
+}
+
+#bild104 {
+    background-image: url(../pictures/oladanielsson.jpg);
+}
+
+#bild105 {
+    background-image: url(../pictures/magnuskarlsson.jpg);
+}
+
+#bild106 {
+    background-image: url(../pictures/nilssvensson.jpg);
+}
+
+#bild107 {
+    background-image: url(../pictures/bertpettersson.jpg);
+}
+
+#bild108 {
+    background-image: url(../pictures/kristernilsson.jpg);
+}
+
+#bild109 {
+    background-image: url(../pictures/bertilsverkersson.jpg);
+}
+
+#bild110 {
+    background-image: url(../pictures/kristofferjaremo.jpg);
+}
+
+#bild111 {
+    background-image: url(../pictures/pellejonsson.jpg);
+}
+
+#bild112 {
+    background-image: url(../pictures/permagnusson.jpg);
+}
+
+#bild113 {
+    background-image: url(../pictures/alexsvensson.jpg);
+}
+
+#bild114 {
+    background-image: url(../pictures/johanolsson.jpg);
+}
+
+#hela10 {
+    width: 450px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#footer01 {
+    margin-top: 210px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext01 {
+    width: auto;
+    text-align:center;
+}
+
+
+#bildherr {
+    margin-top:5px;
+    background-image: url(../pictures/herrlaget.jpg);
+    width: 350px;
+    height: 264px;
+    background-size: contain;
+    border-radius: 5px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#bilddam {
+    background-image: url(../pictures/damlaget.jpg);
+    width: 300px;
+    margin-top:5px;
+    height: 240px;
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    margin-top: 10px;
+    padding: 10px 80px 10px 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(205, 225, 225);
+    border-radius: 50px;
+}
+
+#mengd {
+    padding: 10px 80px 10px 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(225, 205, 225);
+    border-radius: 50px;
+}
+
+#welcome {
+    margin-top: 10px;
+    padding: 10px 80px 10px 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(205, 225, 225);
+    border-radius: 50px;
+}
+
+#mengd {
+    padding: 10px 80px 10px 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(225, 205, 225);
+    border-radius: 50px;
+}
+
+#groo {
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgb(235, 235, 225);
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.yoyo {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.font:link {
+    font-size: 20px;
+}
+
+div .example {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.example {
+    background-image: url("../pictures/m.jpg");
+    width: 290px;
+    border: 1px white solid;
+    padding: 15px;
+    margin-top: 1px;
+    margin-left: 10px;
+    display: none;
+}
+
+.example p {
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    padding-left: 16px;
+    display: none;
+}
+
+.post_results {
+    margin: 5px;
+    width: 130px;
+    border: 1px solid #444;
+    float: left;
+    display: none;
+}
+
+.post_results ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.post_results ul li {
+    background: #555555;
+    background: -moz-linear-gradient(top, #555555 0%, #444444 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #444444));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #555555 0%, #444444 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #555555 0%, #444444 100%);
+    /* IE10+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#444444', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, #555555 0%, #444444 100%);
+    /* W3C */
+    height: 63px;
+    padding: 10px;
+    display: none;
+}
+
+.post_results ul li:hover {
+    background: #666;
+    display: none;
+}
+
+.post_results ul li a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-family: 'Lora', serif;
+    display: none;
+}
+
+.post_results ul li a:hover {
+    color: #eee;
+    display: none;
+}
+
+.post_results ul li p {
+    color: #ddd;
+    font-size: 8px;
+    margin: 0;
+    display: block;
+    display: none;
+}
+
+.ul {
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li {
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(144, 144, 144);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.klass {
+    display: block;
+    color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+#meny2 {
+    width: 440px;
+    height: 60px;
+}
+
+#meny {
+    display: block;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#i-nav {
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 60px;
+    top: 15px;
+    height: 44px;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+}
+
+.show {
+    display: block;
 }

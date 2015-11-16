@@ -10,3 +10,36 @@ fs.writeFile("../text.txt",fs , function(err) {
     }
     console.log("The file was saved!");
 });
+
+<!-- <article id="formBox">
+
+        <form id="form-contact" class="styled" action="" method="">
+            <fieldset id="#formett">
+
+                <ol>
+                    <li class="form-row">
+                        <label>Förälderns namn:</label>
+                        <input id="input-name" type="text" class="text-input required fname default" name="fname" value="" title="ex.Stina" />
+                    </li>
+                    <li class="form-row">
+                        <label>Barnets namn:</label>
+                        <input id="input-name1" type="text" class="text-input required kname default" name="kname" value="" title="ex.Alex" />
+                    </li>
+                    <li class="form-row">
+                        <label>Email:</label>
+                        <input id="input-email" type="text" class="text-input required email default" name="email" value="" title="ex.stina@hotmail.com" />
+                    </li>
+                    <li class="form-row">
+                        <label>Mobil nummer:</label>
+                        <input id="input-phone" type="text" class="text-input required phone default " name="phone" value="" title="0701234567" />
+                    </li>
+                    <li class="form-row">
+                        <label>Meddelande:</label>
+                        <textarea id="input-message" class="text-area" name="message" cols="40" rows="8" placeholder="Frivilligt-Om ditt barn har någon sjukdom som vi borde veta om!"></textarea>
+                    </li>
+                    <li class="button-row text-right">
+                        <input class="btn-submit" type="submit" value="submit" name="submit" />
+                    </li>
+                </ol>
+            </fieldset>
+        </form> -->

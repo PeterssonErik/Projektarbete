@@ -1,0 +1,430 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* arean där headern befinner sig i body taggen finns högst upp på sidan */
+
+#header {
+    background-image: url(../pictures/bg_grass.jpg);
+    opacity: 0.9;
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* Åseda if h1 taggen i headern högst upp på sidan */
+
+#h1tag {
+    padding-left: 44%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* h3 taggen direkt under h1 taggen i headern högst upp på sidan */
+
+.hidden {
+    margin-left: 43.5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+
+#stor {
+    width: 1600px;
+    height: auto;
+    background-color: white;
+}
+
+#nybild {
+    background-image: url(../pictures/kopia.png);
+    background-image: contain;
+}
+
+#SpelareArticle {
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#Spelare {
+    margin: 5px 45px 0px 45px;
+    font-size: 35px;
+    padding: 1px;
+    border: 2px solid black;
+    text-align: center;
+    border-bottom: dashed 1px;
+    border-left: dashed 1px;
+    border-right: dashed 1px;
+    border-radius: 5px;
+}
+
+#section1 {
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border: outset;
+    padding: 10px;
+    width: 300px;
+}
+
+#forborder {
+    margin: 10px 5px 5px 5px;
+    float: right;
+    width: 300px;
+    height: 425px;
+    border: 1px solid black;
+}
+
+#helbild {
+    margin-left: 5px;
+}
+
+.valle {
+    margin-top: 3px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#back15 {
+    margin: 20px;
+}
+
+.ferg {
+    background-color: rgb(225, 225, 225);
+}
+
+.bildtillprofil {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 294px;
+    height: 400px;
+    margin: 3px;
+}
+
+#bild13 {
+    background-image: url(../pictures/eyy.JPG);
+}
+
+#bild12 {
+    background-image: url(../pictures/bollkalle.jpg);
+}
+
+#bild14 {
+    background-image: url(../pictures/stinab.jpg);
+}
+
+#bild15 {
+    background-image: url(../pictures/stinaa.jpg);
+}
+
+#bild16 {
+    background-image: url(../pictures/milan.jpg);
+}
+
+#bild17 {
+    background-image: url(../pictures/petras.jpg);
+}
+
+#bild18 {
+    background-image: url(../pictures/petrag.jpg);
+}
+
+#bild19 {
+    background-image: url(../pictures/kajsa.jpg);
+}
+
+#bild20 {
+    background-image: url(../pictures/maria.jpg);
+}
+
+#bild21 {
+    background-image: url(../pictures/kristina.JPG);
+}
+
+#bild22 {
+    background-image: url(../pictures/jasminp.jpg);
+}
+
+#bild23 {
+    background-image: url(../pictures/jasminn.JPG);
+}
+
+#bild24 {
+    background-image: url(../pictures/birgitta.jpg);
+}
+
+#bild25 {
+    background-image: url(../pictures/emmak.JPG);
+}
+
+#bild26 {
+    background-image: url(../pictures/damtrenare.jpg);
+}
+
+#bild100 {
+    background-image: url(../pictures/niklasthorsson.jpg);
+}
+
+#bild101 {
+    background-image: url(../pictures/peterolsson.jpg);
+}
+
+#bild102 {
+    background-image: url(../pictures/karlpersson.jpg);
+}
+
+#bild103 {
+    background-image: url(../pictures/ronaldocarlsson.jpg);
+}
+
+#bild104 {
+    background-image: url(../pictures/oladanielsson.jpg);
+}
+
+#bild105 {
+    background-image: url(../pictures/magnuskarlsson.jpg);
+}
+
+#bild106 {
+    background-image: url(../pictures/nilssvensson.jpg);
+}
+
+#bild107 {
+    background-image: url(../pictures/bertpettersson.jpg);
+}
+
+#bild108 {
+    background-image: url(../pictures/kristernilsson.jpg);
+}
+
+#bild109 {
+    background-image: url(../pictures/bertilsverkersson.jpg);
+}
+
+#bild110 {
+    background-image: url(../pictures/kristofferjaremo.jpg);
+}
+
+#bild111 {
+    background-image: url(../pictures/pellejonsson.jpg);
+}
+
+#bild112 {
+    background-image: url(../pictures/permagnusson.jpg);
+}
+
+#bild113 {
+    background-image: url(../pictures/alexsvensson.jpg);
+}
+
+#bild114 {
+    background-image: url(../pictures/johanolsson.jpg);
+}
+
+#welcome {
+    margin-top:10px;
+    padding:10px 80px 10px 80px;
+    text-align:center;
+    font-size:30px;
+    background-color:rgb(205,225,225);
+    border-radius:50px;
+}
+
+#mengd {
+    padding:10px 80px 10px 80px;
+    font-size:20px;
+    text-align:center;
+    margin-top:25px;
+    background-color:rgb(225,205,225);
+    border-radius:50px;
+}
+
+#groo {
+    margin-top:10px;
+    border-radius:50px;
+    background-color:rgb(235,235,225);
+    margin-left:45px;
+    margin-right:45px;
+}
+
+.yoyo {
+    margin-top:15px;
+    margin-left:5px;
+    margin-bottom:15px;
+}
+
+.font:link {
+    font-size:20px;
+}
+
+#footer01 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext01 {
+    width: auto;
+    text-align:center;
+}
+
+#footer001 {
+    margin-top: 50px;
+    height: 60px;
+    width: auto;
+}
+
+#footertext001 {
+    width: auto;
+    text-align:center;
+}
+
+#textbox {
+    margin-left:5px;
+    text-align:center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
